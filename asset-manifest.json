@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/crypto-order-book/static/css/main.a0e83d8f.chunk.css",
-    "main.js": "/crypto-order-book/static/js/main.8eeda048.chunk.js",
-    "main.js.map": "/crypto-order-book/static/js/main.8eeda048.chunk.js.map",
-    "runtime-main.js": "/crypto-order-book/static/js/runtime-main.06dd7e6e.js",
-    "runtime-main.js.map": "/crypto-order-book/static/js/runtime-main.06dd7e6e.js.map",
-    "static/js/2.7c60aeea.chunk.js": "/crypto-order-book/static/js/2.7c60aeea.chunk.js",
-    "static/js/2.7c60aeea.chunk.js.map": "/crypto-order-book/static/js/2.7c60aeea.chunk.js.map",
-    "static/js/3.c531ba82.chunk.js": "/crypto-order-book/static/js/3.c531ba82.chunk.js",
-    "static/js/3.c531ba82.chunk.js.map": "/crypto-order-book/static/js/3.c531ba82.chunk.js.map",
-    "index.html": "/crypto-order-book/index.html",
-    "static/css/main.a0e83d8f.chunk.css.map": "/crypto-order-book/static/css/main.a0e83d8f.chunk.css.map",
-    "static/js/2.7c60aeea.chunk.js.LICENSE.txt": "/crypto-order-book/static/js/2.7c60aeea.chunk.js.LICENSE.txt"
+    "main.css": "/crypto-orderbook/static/css/main.a0e83d8f.chunk.css",
+    "main.js": "/crypto-orderbook/static/js/main.8eeda048.chunk.js",
+    "main.js.map": "/crypto-orderbook/static/js/main.8eeda048.chunk.js.map",
+    "runtime-main.js": "/crypto-orderbook/static/js/runtime-main.d4d75658.js",
+    "runtime-main.js.map": "/crypto-orderbook/static/js/runtime-main.d4d75658.js.map",
+    "static/js/2.7c60aeea.chunk.js": "/crypto-orderbook/static/js/2.7c60aeea.chunk.js",
+    "static/js/2.7c60aeea.chunk.js.map": "/crypto-orderbook/static/js/2.7c60aeea.chunk.js.map",
+    "static/js/3.c531ba82.chunk.js": "/crypto-orderbook/static/js/3.c531ba82.chunk.js",
+    "static/js/3.c531ba82.chunk.js.map": "/crypto-orderbook/static/js/3.c531ba82.chunk.js.map",
+    "index.html": "/crypto-orderbook/index.html",
+    "static/css/main.a0e83d8f.chunk.css.map": "/crypto-orderbook/static/css/main.a0e83d8f.chunk.css.map",
+    "static/js/2.7c60aeea.chunk.js.LICENSE.txt": "/crypto-orderbook/static/js/2.7c60aeea.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.06dd7e6e.js",
+    "static/js/runtime-main.d4d75658.js",
     "static/js/2.7c60aeea.chunk.js",
     "static/css/main.a0e83d8f.chunk.css",
     "static/js/main.8eeda048.chunk.js"
