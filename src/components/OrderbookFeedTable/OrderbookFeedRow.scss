@@ -1,0 +1,28 @@
+.orderbook-row {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  padding: 0 18px;
+  transition: background-color 150ms;
+  &__item {
+    padding: 8px 6px;
+    color: #455a64;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  &:hover {
+    background-color: #f2f4f5;
+  }
+  &--bid {
+    .orderbook-row__item:first-child {
+      color: #3fcfb4;
+    }
+  }
+  &--ask {
+    .orderbook-row__item:first-child {
+      color: #fd2a47;
+    }
+  }
+  @media (max-width: 800px) {
+    grid-template-columns: 50% 50%;
+  }
+}

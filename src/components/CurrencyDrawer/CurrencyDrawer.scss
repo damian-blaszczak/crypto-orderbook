@@ -1,0 +1,78 @@
+.currencyDrawer {
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  background-color: whitesmoke;
+  transform: translateX(-105%);
+  transition: transform 200ms;
+  z-index: 2;
+  overflow-y: auto;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  padding-top: 30px;
+  @media (max-width: 350px) {
+    width: 100%;
+  }
+  &--open {
+    transform: translate(0);
+  }
+  &__overlay {
+    opacity: 0;
+    pointer-events: none;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    transition: opacity 200ms;
+    &--open {
+      opacity: 1;
+      pointer-events: inherit;
+    }
+  }
+  &__item {
+    padding: 8px;
+    cursor: pointer;
+    background-color: white;
+    font-size: 1.3rem;
+    font-weight: 500;
+    transition: all 100ms;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.2);
+      font-weight: 600;
+    }
+    &--selected {
+      background-color: rgba(0, 0, 0, 0.2);
+      pointer-events: none;
+    }
+  }
+  &__closeIcon {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    &:before, &:after {
+      content: '';
+      position: absolute;
+      left: 8px;
+      height: 16px;
+      width: 2px;
+      background-color: #333;
+    }
+    &:before {
+      transform: rotate(45deg);
+    }
+    &:after {
+      transform: rotate(-45deg);
+    }
+  }
+}
