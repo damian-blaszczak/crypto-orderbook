@@ -1,0 +1,709 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Orderbook should render correctly 1`] = `
+<div>
+  <div
+    class="orderbook"
+  >
+    <div
+      class="orderbook__header"
+    >
+      <div
+        class="orderbook__header-item"
+      >
+        <button
+          class="orderbook__button"
+          data-testid="currencies-button"
+        >
+          BTC-PLN
+        </button>
+      </div>
+      <div
+        class="orderbook__header-item"
+      >
+        <div
+          class="orderbook__header-item-title"
+        >
+          Spread:
+        </div>
+        <div
+          class="orderbook__header-item-value"
+          data-testid="spreadValue"
+        >
+          3890.02
+        </div>
+      </div>
+      <div
+        class="orderbook__header-item"
+      >
+        <div
+          class="orderbook__market-stats"
+        >
+          <div
+            class="orderbook__market-stats-item"
+          >
+            <span>
+              Najwyższa (24h)
+            </span>
+             
+            <span>
+              208499.99
+            </span>
+          </div>
+          <div
+            class="orderbook__market-stats-item"
+          >
+            <span>
+              Najniższa (24h)
+            </span>
+             
+            <span>
+              197570.01
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="orderbook__container"
+      data-testid="orderbook-table"
+    >
+      <div>
+        <div
+          class="orderbook-header orderbook-header--bid"
+        >
+          <div
+            class="orderbook-header__item"
+          >
+            <span
+              class="orderbook-header__prefix"
+            >
+              bid
+            </span>
+             - 
+            kupno
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            ilość (
+            BTC
+            )
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            wartość (
+            PLN
+            )
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            liczba ofert
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--bid"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            195201.1
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.02
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            3904.02
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--bid"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            195250
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.01
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1952.50
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--bid"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            195294.81
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.00102409
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            200.00
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--bid"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            195333
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.00113728
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            222.15
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            2
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--bid"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            195400
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.02535312
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            4954.00
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            2
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="orderbook-header orderbook-header--ask"
+        >
+          <div
+            class="orderbook-header__item"
+          >
+            <span
+              class="orderbook-header__prefix"
+            >
+              ask
+            </span>
+             - 
+            sprzedaż
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            ilość (
+            BTC
+            )
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            wartość (
+            PLN
+            )
+          </div>
+          <div
+            class="orderbook-header__item"
+          >
+            liczba ofert
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--ask"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            199091.12
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.15490954
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            30841.11
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--ask"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            199091.13
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1.529897
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            304588.92
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--ask"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            199091.15
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1.0338000
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            205820.43
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--ask"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            199091.16
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.0521775
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            10388.08
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+        <div
+          class="orderbook-row orderbook-row--ask"
+        >
+          <div
+            class="orderbook-row__item"
+          >
+            199982.9
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            0.2000
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            39996.58
+          </div>
+          <div
+            class="orderbook-row__item"
+          >
+            1
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="currencyDrawer "
+      data-testid="currency-drawer"
+    >
+      <div
+        class="currencyDrawer__closeIcon"
+      />
+      <div
+        class="currencyDrawer__item currencyDrawer__item--selected"
+        data-testid="currency-item"
+      >
+        BTC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ETH-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AAVE-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ADA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ALG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AMLT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ATRI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AVAX-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BAT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BCC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BCP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BOB-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BSV-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BTG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        CHZ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        COMP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DAI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DASH-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DOGE-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DOT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ENJ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        EOS-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        FTM-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GAME-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GNT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GRT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LINK-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LSK-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LML-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LTC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LUNA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MANA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MATIC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MKR-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        NEU-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        OMG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        PAY-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        REEF-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        REP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        SUSHI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        SXP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        TRX-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        UNI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        USDC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        USDT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        WIS-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XIN-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XLM-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XRP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XTZ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ZEC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ZRX-PLN
+      </div>
+    </div>
+    <div
+      class="currencyDrawer__overlay "
+    />
+  </div>
+</div>
+`;

@@ -1,0 +1,396 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div>
+  <div
+    class="orderbook"
+  >
+    <div
+      class="orderbook__header"
+    >
+      <div
+        class="orderbook__header-item"
+      >
+        <button
+          class="orderbook__button"
+          data-testid="currencies-button"
+        >
+          BTC-PLN
+        </button>
+      </div>
+      <div
+        class="orderbook__header-item"
+      >
+        <div
+          class="orderbook__header-item-title"
+        >
+          Spread:
+        </div>
+        <div
+          class="orderbook__header-item-value"
+          data-testid="spreadValue"
+        >
+          -
+        </div>
+      </div>
+      <div
+        class="orderbook__header-item"
+      >
+        <div
+          class="orderbook__market-stats"
+        >
+          <div
+            class="orderbook__market-stats-item"
+          >
+            <span>
+              Najwyższa (24h)
+            </span>
+             
+            <span>
+              -
+            </span>
+          </div>
+          <div
+            class="orderbook__market-stats-item"
+          >
+            <span>
+              Najniższa (24h)
+            </span>
+             
+            <span>
+              -
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="loader"
+      data-testid="orderbook-loader"
+    />
+    <div
+      class="currencyDrawer "
+      data-testid="currency-drawer"
+    >
+      <div
+        class="currencyDrawer__closeIcon"
+      />
+      <div
+        class="currencyDrawer__item currencyDrawer__item--selected"
+        data-testid="currency-item"
+      >
+        BTC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ETH-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AAVE-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ADA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ALG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AMLT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ATRI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        AVAX-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BAT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BCC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BCP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BOB-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BSV-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        BTG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        CHZ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        COMP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DAI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DASH-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DOGE-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        DOT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ENJ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        EOS-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        FTM-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GAME-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GNT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        GRT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LINK-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LSK-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LML-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LTC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        LUNA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MANA-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MATIC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        MKR-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        NEU-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        OMG-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        PAY-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        REEF-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        REP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        SUSHI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        SXP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        TRX-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        UNI-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        USDC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        USDT-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        WIS-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XIN-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XLM-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XRP-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        XTZ-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ZEC-PLN
+      </div>
+      <div
+        class="currencyDrawer__item "
+        data-testid="currency-item"
+      >
+        ZRX-PLN
+      </div>
+    </div>
+    <div
+      class="currencyDrawer__overlay "
+    />
+  </div>
+</div>
+`;

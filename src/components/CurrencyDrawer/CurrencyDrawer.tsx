@@ -19,7 +19,7 @@ const CurrencyDrawer = ({
 
   return (
     <>
-      <div className={`currencyDrawer ${isOpen ? 'currencyDrawer--open' : ''}`}>
+      <div className={`currencyDrawer ${isOpen ? 'currencyDrawer--open' : ''}`} data-testid="currency-drawer">
         <div className="currencyDrawer__closeIcon" onClick={handleClose} />
         {currenciesPairs.map((marketCode) => (
           <div
@@ -28,6 +28,7 @@ const CurrencyDrawer = ({
               activeMarketCode === marketCode ? 'currencyDrawer__item--selected' : ''
             }`}
             onClick={() => selectPair(marketCode)}
+            data-testid="currency-item"
           >
             {marketCode}
           </div>
