@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/crypto-orderbook/static/css/main.a0e83d8f.chunk.css",
-    "main.js": "/crypto-orderbook/static/js/main.8eeda048.chunk.js",
-    "main.js.map": "/crypto-orderbook/static/js/main.8eeda048.chunk.js.map",
+    "main.js": "/crypto-orderbook/static/js/main.2f2a88cf.chunk.js",
+    "main.js.map": "/crypto-orderbook/static/js/main.2f2a88cf.chunk.js.map",
     "runtime-main.js": "/crypto-orderbook/static/js/runtime-main.d4d75658.js",
     "runtime-main.js.map": "/crypto-orderbook/static/js/runtime-main.d4d75658.js.map",
     "static/js/2.7c60aeea.chunk.js": "/crypto-orderbook/static/js/2.7c60aeea.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.d4d75658.js",
     "static/js/2.7c60aeea.chunk.js",
     "static/css/main.a0e83d8f.chunk.css",
-    "static/js/main.8eeda048.chunk.js"
+    "static/js/main.2f2a88cf.chunk.js"
   ]
 }
